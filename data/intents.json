@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Howdy",
+        "Greetings",
+        "Hi there",
+        "Hello there",
+        "Hey buddy"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there!",
+        "Nice to meet you.",
+        "How can I help you today?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Catch you later",
+        "I have to go",
+        "See you soon",
+        "Farewell",
+        "Talk later",
+        "Quit",
+        "Exit"
+      ],
+      "responses": [
+        "Goodbye!",
+        "Have a great day!",
+        "See you again!",
+        "Take care!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated",
+        "Thanks a lot",
+        "Thank you very much",
+        "Cheers",
+        "Awesome thanks",
+        "Thanks buddy"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "No problem!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name",
+        "Who are you",
+        "Tell me your name",
+        "Do you have a name",
+        "What should I call you"
+      ],
+      "responses": [
+        "I'm your AI chatbot.",
+        "You can call me ChatBot.",
+        "I'm your virtual assistant."
+      ]
+    }
+  ]
+}
