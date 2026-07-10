@@ -3,7 +3,7 @@ import json
 import random
 import joblib
 
-from preprocess import TextPreprocessor
+from src.preprocess import TextPreprocessor
 
 class ChatbotPredictor:
 

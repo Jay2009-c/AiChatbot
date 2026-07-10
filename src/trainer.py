@@ -12,7 +12,7 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 
-from preprocess import TextPreprocessor
+from src.preprocess import TextPreprocessor
 
 class Trainer:
 

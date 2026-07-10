@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from memory import ConversationMemory
-from inference import ChatbotPredictor
+from src.memory import ConversationMemory
+from src.inference import ChatbotPredictor
 
 
 class ChatBot:
