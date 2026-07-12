@@ -19,3 +19,11 @@ Run "python train.py" to train models
 ## Chat
 
 Run "python chat.py" to run models
+
+##Menu:
+Type these Commands:
+  help    - Show help menu
+  history - Show full chat log
+  clear   - Wipe the session memory
+  stats   - Show total active turns
+  quit    - Exit the chat
