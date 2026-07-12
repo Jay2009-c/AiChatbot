@@ -79,10 +79,12 @@ class Trainer:
         
         print("--- Classification Report ---")
         print(classification_report(
-            y_test,
-            predictions,
-            target_names=self.encoder.classes_
-        ))
+              y_test,
+              predictions,
+              labels=range(len(self.encoder.classes_)),
+              target_names=self.encoder.classes_,
+              zero_division=0
+              ))
 
         # 6. Export artifacts safely
         Path("models").mkdir(exist_ok=True)
