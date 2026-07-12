@@ -14,8 +14,8 @@ A machine-learning chatbot built using Python, NLTK, and scikit-learn.
 
 ## Training
 
-python train.py
+Run "python train.py" to train models
 
 ## Chat
 
-python chat.py
+Run "python chat.py" to run models
