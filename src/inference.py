@@ -39,6 +39,10 @@ class ChatbotPredictor:
         index = probabilities.argmax()
         confidence = probabilities[index]
         tag = self.encoder.inverse_transform([index])[0]
+        print(f"Predicted: {tag}")
+        print(f"Confidence: {confidence:.4f}")
+
+return tag, confidence
 
         CONFIDENCE_THRESHOLD = 0.60
         if confidence < CONFIDENCE_THRESHOLD:
