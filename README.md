@@ -21,7 +21,7 @@ Run "python train.py" to train models
 Run "python chat.py" to run models
 
 ## Menu:
-Type these Commands:
+Type these Commands in chat for menu:
   - help    - Show help menu 
   - history - Show full chat log 
   - clear   - Wipe the session memory 
