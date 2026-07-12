@@ -42,7 +42,7 @@ class ChatbotPredictor:
         print(f"Predicted: {tag}")
         print(f"Confidence: {confidence:.4f}")
 
-        CONFIDENCE_THRESHOLD = 0.60
+        CONFIDENCE_THRESHOLD = 0.0
         if confidence < CONFIDENCE_THRESHOLD:
             return "unknown", confidence
 
