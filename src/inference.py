@@ -40,7 +40,7 @@ class ChatbotPredictor:
         confidence = probabilities[index]
         tag = self.encoder.inverse_transform([index])[0]
         
-        CONFIDENCE_THRESHOLD = 0.0
+        CONFIDENCE_THRESHOLD = 0.9
         if confidence < CONFIDENCE_THRESHOLD:
             return "unknown", confidence
 
