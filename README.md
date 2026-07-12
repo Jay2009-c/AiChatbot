@@ -9,7 +9,7 @@ A machine-learning chatbot built using Python, NLTK, and scikit-learn.
 - TF-IDF vectorization
 - Logistic Regression
 - Conversation memory
-- Confidence scoring
+- Confidence scoring(optional)
 - Model persistence
 
 ## Training
@@ -27,3 +27,5 @@ Type these Commands in chat for menu:
   - clear   - Wipe the session memory 
   - stats   - Show total active turns 
   - quit    - Exit the chat
+
+#Run in GitHub Codespaces for quick start
